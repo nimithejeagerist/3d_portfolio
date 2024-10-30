@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    holyai,
   } from "../assets";
   
   export const navLinks = [
@@ -188,8 +189,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: holyai,
+      source_code_link: "https://github.com/nimithejeagerist/HolyAI",
     },
     {
       name: "QuickBrain",
@@ -210,10 +211,10 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/nimithejeagerist/quick-brain",
     },
     {
-      name: "Finance Tracker",
+      name: "BudgetBuddy",
       description:
         "A responsive web application for tracking personal finances, offering real-time data visualization and analysis to provide insights into spending habits.",
       tags: [
@@ -231,7 +232,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/nimithejeagerist/budgetbuddy",
     },
   ];
   

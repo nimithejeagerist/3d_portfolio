@@ -1,29 +1,23 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
+    headstarter,
     tripguide,
     threejs,
     holyai,
+    quickbrain,
+    starr,
   } from "../assets";
   
   export const navLinks = [
@@ -43,20 +37,16 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -82,10 +72,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -109,63 +95,33 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer",
+      company_name: "Student Team for Alberta Rocketry Research",
+      icon: starr,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and deployed front-end features using React.js and JavaScript, enhancing responsiveness and user experience, which increased engagement by 15%.",
+        "Worked on back-end integration for multimedia management, utilizing Firebase to ensure real-time data synchronization and storage efficiency.",
+        "Partnered with UX designers and product managers to implement user-centric features, enhancing user engagement by 20%.",
+        "Documented workflows and code practices to support easier onboarding and consistent project handoffs.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Engineering Fellow",
+      company_name: "Headstarter",
+      icon: headstarter,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2024 - September 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded front-end enhancements in Next.js and React, optimizing for cross-platform compatibility and reducing load times by 15%.",
+        "Optimized mobile performance for real-time applications, reducing load times by 15%.",
+        "Worked on secure, reusable code structures for UI components, focusing on scalability and maintainability.",
+        "Improved application scalability by 10%, leveraging REST APIs and ensuring robust performance across devices.",
       ],
     },
   ];
@@ -174,7 +130,7 @@ import {
     {
       name: "Holy AI",
       description:
-        "An iOS application providing personalized answers based on Bible text, integrating OpenAI’s API for generating thoughtful responses, with Firebase handling real-time data sync and user authentication.",
+        "A browser-based app that uses OCR with OpenAI API to generate study flashcards, built for efficient and scalable learning experiences.",
       tags: [
         {
           name: "swift",
@@ -210,13 +166,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: quickbrain,
       source_code_link: "https://github.com/nimithejeagerist/quick-brain",
     },
     {
       name: "BudgetBuddy",
       description:
-        "A responsive web application for tracking personal finances, offering real-time data visualization and analysis to provide insights into spending habits.",
+        "A responsive app for tracking personal finances, offering real-time data analysis to provide insights into spending and financial patterns",
       tags: [
         {
           name: "python",

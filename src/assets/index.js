@@ -27,8 +27,10 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import holyai from "./holyaii.png"
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import quickbrain from "./quickbrain.png"
+import starr from "./starr.png"
+import headstarter from "./headstarter.jpg"
+
 import tripguide from "./tripguide.png";
 
 export {
@@ -57,8 +59,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  starr,
+  headstarter,
   tripguide,
   holyai,
+  quickbrain,
 };

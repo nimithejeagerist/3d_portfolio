@@ -12,7 +12,7 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
         <div>
-        <h1 className={`${styles.heroHeadText} text-white`}>Hi, Im <span className='text-[#915EFF]'>Emmanuel</span></h1>
+        <h1 className={`${styles.heroHeadText} text-white`}>Hi, Im <span className='text-[#915EFF]'>Nimi</span></h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}> 
           I develop mobile and web applications.
           <br className='sm:block hidden' />On a deeper level though...I am crazy about AI and Embedded programming.
